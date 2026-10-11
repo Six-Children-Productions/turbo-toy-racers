@@ -2,6 +2,8 @@
 
 The game page for Tiny Turbo Racers by Six Children Productions.
 
+**[Visit the game page](https://six-children-productions.github.io/tiny-turbo-racers/)** · **[Windows download and release notes](https://github.com/Six-Children-Productions/tiny-turbo-racers/releases/tag/v0.1.0-playtest)**
+
 30 tracks, 12 cars, campaign progression, and local split-screen for up to four players. This repository contains the website and trailer. The playable Windows game is distributed as a GitHub Release; it is not a browser game.
 
 ## Play
