@@ -1,0 +1,31 @@
+TINY TURBO RACERS - ASSET AND AUDIO CREDITS
+
+Race countdown voice: Kenney Voiceover Pack #1, Kenney Vleugels (Kenney.nl), CC0.
+https://kenney.nl/assets/voiceover-pack
+The original license is included as Kenney Voice License.txt.
+
+Campaign welcome: synthetic speech generated locally using Chatterbox Turbo
+with a reference montage from the Kenney CC0 game voice, then mixed with a
+loudspeaker effect and echo. Generator/model: Resemble AI, MIT.
+https://github.com/resemble-ai/chatterbox
+https://huggingface.co/ResembleAI/chatterbox-turbo
+The voice-generation software is not required or distributed with this game.
+
+Crowd applause: "Sound Effects - Applause after a concert.ogg" by Amada44, CC0.
+https://commons.wikimedia.org/wiki/File:Sound_Effects_-_Applause_after_a_concert.ogg
+
+Earth cloud coverage: NASA Goddard Space Flight Center; image by Reto Stoeckli;
+compositing by Robert Simmon, Blue Marble 2002. NASA government media used under
+NASA media guidelines; no endorsement.
+https://visibleearth.nasa.gov/images/57747/blue-marble-clouds
+
+Lunar materials and terrestrial rocks coated with lunar simulant: Poly Haven
+moon_03, moon_macro_01, moon_track_01, moon_rock_01 and moon_rock_06, CC0.
+The rocks are not actual Moon samples. https://polyhaven.com
+
+Draped gingham cloth and matched dining table: Poly Haven dining_table,
+Aron Lyczek, CC0. Original UV/PBR preserved; derived simplified detail levels.
+Folded towels are authored geometry using existing Fabric030 material.
+
+This download contains a compiled Unity game and required runtime libraries.
+No license to redistribute source art as a standalone asset collection is granted.
