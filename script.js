@@ -1,7 +1,7 @@
 "use strict";
 const release = window.TTR_RELEASE;
 const download = document.getElementById("download-button");
-if (release?.published && /^https:\/\/github\.com\/Six-Children-Productions\/tiny-turbo-racers\/releases\/download\//i.test(release.downloadUrl)) {
+if (release?.published && /^https:\/\/github\.com\/Six-Children-Productions\/turbo-toy-racers\/releases\/download\//i.test(release.downloadUrl)) {
   download.href = release.downloadUrl;
   document.getElementById("release-status").textContent = `Windows 64-bit · ZIP download · ${release.size}`;
 }
