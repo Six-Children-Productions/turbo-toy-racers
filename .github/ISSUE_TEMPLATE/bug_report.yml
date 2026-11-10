@@ -1,0 +1,90 @@
+name: Bug report
+description: Report a problem with the Turbo Toy Racers Windows playtest.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Turbo Toy Racers! Please report one problem at a time.
+
+        **Reports and attachments in this repository are public.** Remove names, email addresses, account details, file paths containing your Windows username, and other private information from screenshots or logs. Do not post passwords, tokens, or security vulnerabilities here.
+
+        A GitHub account is required to submit. Nothing is submitted until you select **Create**.
+  - type: checkboxes
+    id: existing-report
+    attributes:
+      label: Before you start
+      options:
+        - label: I searched the existing issues for this problem.
+          required: true
+  - type: input
+    id: version
+    attributes:
+      label: Game version / build
+      description: Copy the complete version and build text from the bottom-right corner of the main menu. If your build does not show one, enter the release tag or download filename; otherwise write "Unknown".
+      placeholder: "For example: v1.0 | Build 0123456789ab (copy your own value)"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+      placeholder: |
+        What happened:
+        What I expected:
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Tell us how to trigger the problem. If it only happened once, say so.
+      placeholder: |
+        1. Open...
+        2. Choose...
+        3. Do...
+        4. The problem occurs...
+    validations:
+      required: true
+  - type: input
+    id: track-car
+    attributes:
+      label: Track and car
+      description: Include the track and car names, if relevant.
+      placeholder: "Track: ... / Car: ... / Not applicable"
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Where did it happen?
+      options:
+        - Main menu or track selection
+        - Single-player race
+        - Local split-screen
+        - Campaign or progression
+        - Download, extraction, or launch
+        - Other
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Only once so far
+        - Not sure
+  - type: textarea
+    id: setup
+    attributes:
+      label: Windows and controls
+      description: Include your Windows version, keyboard or controller model, and number of players. GPU details are helpful for graphics or performance problems. Do not include device serial numbers or account details.
+      placeholder: |
+        Windows version:
+        Controls:
+        Number of players:
+        GPU (if relevant):
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots, video, or relevant log excerpt (optional)
+      description: Attach only material you are comfortable making public. Review and remove private information first. A short relevant log excerpt is better than an entire log file.
