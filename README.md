@@ -2,13 +2,13 @@
 
 The game page for Turbo Toy Racers by Six Children Productions.
 
-**[Visit the game page](https://six-children-productions.github.io/turbo-toy-racers/)** · **[Windows download and release notes](https://github.com/Six-Children-Productions/turbo-toy-racers/releases/tag/v0.1.0-playtest)**
+**[Visit the game page](https://six-children-productions.github.io/turbo-toy-racers/)** · **[Windows download and release notes](https://github.com/Six-Children-Productions/turbo-toy-racers/releases/tag/v2026.11.11-playtest)**
 
 30 tracks, 12 cars, campaign progression, and local split-screen for up to four players. This repository contains the website and trailer. The playable Windows game is distributed as a GitHub Release; it is not a browser game.
 
 ## Play
 
-Download **Turbo-Toy-Racers-Windows.zip** from this repository's Releases, extract the entire ZIP, and launch **TurboToyRacers.exe**. Keep the executable, DLLs and data folder together. Local multiplayer uses a controller for each player.
+Download **Turbo-Toy-Racers-Windows-2026.11.11.zip** from this repository's Releases, extract the entire ZIP, and launch **TurboToyRacers.exe**. Keep the executable, DLLs and data folder together. Local multiplayer uses a controller for each player.
 
 ## Website
 
